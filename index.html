@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristian Vasquez - Contratista Generales & Técnico Electricista</title>
+    <!-- Tailwind CSS desde CDN para estilos modernos y responsivos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome para Íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Fuente Google Fonts (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            gold: '#f59e0b',
+                            goldHover: '#d97706',
+                            dark: '#0f172a',
+                            navy: '#1e293b',
+                            blue: '#2563eb'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased flex flex-col min-h-screen">
+
+    <!-- Navegación Header -->
+    <header class="bg-brand-dark text-white sticky top-0 z-50 shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-brand-gold text-brand-dark p-2 rounded-lg text-xl font-bold">
+                    <i class="fa-solid fa-bolt"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-bold tracking-tight block leading-tight text-white">Cristian Vasquez</span>
+                    <span class="text-xs text-amber-400 font-semibold tracking-wider uppercase">Contratista Generales</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium">
+                <a href="#inicio" class="hover:text-brand-gold transition-colors">Inicio</a>
+                <a href="#nosotros" class="hover:text-brand-gold transition-colors">Historia</a>
+                <a href="#certificados" class="hover:text-brand-gold transition-colors">Certificaciones</a>
+                <a href="#horario" class="hover:text-brand-gold transition-colors">Horario</a>
+                <a href="#contacto" class="hover:text-brand-gold transition-colors">Contacto</a>
+            </nav>
+            <a href="https://wa.me/51983238748" target="_blank" rel="noopener" class="hidden sm:inline-flex items-center space-x-2 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-4 py-2 rounded-lg transition-all shadow-md text-sm">
+                <i class="fa-brands fa-whatsapp text-lg"></i>
+                <span>Cotizar Ahora</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section con Imagen de Fondo -->
+    <section id="inicio" class="relative bg-brand-dark text-white py-24 lg:py-32 flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 z-0 opacity-25">
+            <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1920&auto=format&fit=crop" alt="Electricidad Industrial" class="w-full h-full object-cover">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-r from-brand-dark via-brand-dark/90 to-transparent z-0"></div>
+
+        <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left">
+            <div class="flex flex-wrap gap-2 mb-4 justify-center sm:justify-start">
+                <span class="bg-brand-gold/20 text-brand-gold text-xs sm:text-sm font-semibold px-3 py-1 rounded-full uppercase tracking-wider border border-brand-gold/30">
+                    Técnico Electricista Certificado
+                </span>
+                <span class="bg-emerald-500/20 text-emerald-400 text-xs sm:text-sm font-semibold px-3 py-1 rounded-full uppercase tracking-wider border border-emerald-500/30 flex items-center gap-1.5">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> Atención 24 Horas
+                </span>
+            </div>
+            <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight leading-tight mb-4">
+                Soluciones Eléctricas Seguras y Contratista General
+            </h1>
+            <p class="text-base sm:text-xl text-gray-300 max-w-2xl mb-8 leading-relaxed">
+                Garantía, responsabilidad y trabajo técnico profesional a cargo de <strong class="text-white">Cristian Hernan Vasquez Palomino</strong>.
+            </p>
+            
+            <!-- 3 Botones de Contacto Rápido -->
+            <div id="contacto" class="flex flex-col sm:flex-row gap-4 justify-center sm:justify-start">
+                <!-- Botón WhatsApp -->
+                <a href="https://wa.me/51983238748" target="_blank" rel="noopener" class="flex items-center justify-center space-x-3 bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-6 py-3.5 rounded-xl shadow-lg transition-all transform hover:-translate-y-0.5">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    <span>WhatsApp (+51 983 238 748)</span>
+                </a>
+                <!-- Botón Gmail -->
+                <a href="mailto:cristiancontratistagenerales@gmail.com" class="flex items-center justify-center space-x-3 bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-3.5 rounded-xl shadow-lg transition-all transform hover:-translate-y-0.5">
+                    <i class="fa-regular fa-envelope text-2xl"></i>
+                    <span>Gmail Directo</span>
+                </a>
+                <!-- Botón Facebook -->
+                <a href="https://www.facebook.com/profile.php?id=61594513802117&_rdc=1&_rdr#" target="_blank" rel="noopener" class="flex items-center justify-center space-x-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3.5 rounded-xl shadow-lg transition-all transform hover:-translate-y-0.5">
+                    <i class="fa-brands fa-facebook-f text-xl"></i>
+                    <span>Facebook</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reseña e Historia -->
+    <section id="nosotros" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="relative">
+                    <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?q=80&w=800&auto=format&fit=crop" alt="Técnico Electricista Trabajando" class="rounded-2xl shadow-xl w-full object-cover h-96">
+                    <div class="absolute -bottom-6 -right-6 bg-brand-gold text-brand-dark font-bold p-6 rounded-2xl shadow-lg hidden sm:block">
+                        <p class="text-3xl">4+</p>
+                        <p class="text-xs uppercase font-semibold">Certificaciones<br>Oficiales</p>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="text-3xl font-bold text-brand-dark mb-4">Sobre Mi Trabajo y Trayectoria</h2>
+                    <p class="text-gray-600 mb-4 leading-relaxed">
+                        Mi nombre es <strong>Cristian Hernan Vasquez Palomino</strong>. Como técnico electricista profesional y contratista general, me dedico a brindar un trabajo limpio, eficiente e impecable para hogares, comercios y proyectos de construcción.
+                    </p>
+                    <p class="text-gray-600 mb-6 leading-relaxed">
+                        Cuento con capacitación constante para ejecutar desde instalaciones eléctricas de alta complejidad hasta mantenimiento predictivo y preventivo, cumpliendo estrictamente todas las normas de seguridad técnica.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4 border-t border-gray-100 pt-6">
+                        <div class="flex items-center space-x-3">
+                            <i class="fa-solid fa-circle-check text-emerald-500 text-xl"></i>
+                            <span class="font-medium text-gray-700 text-sm">Garantía Asegurada</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fa-solid fa-circle-check text-emerald-500 text-xl"></i>
+                            <span class="font-medium text-gray-700 text-sm">Disponibilidad 24/7</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificados y Especialidades -->
+    <section id="certificados" class="py-16 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-brand-dark mb-2">4 Certificados Especializados</h2>
+            <p class="text-gray-600 mb-12 max-w-xl mx-auto">Respaldo técnico garantizado para la ejecución de proyectos seguros.</p>
+            
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Certificado 1 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-brand-gold hover:shadow-lg transition-shadow text-left">
+                    <div class="w-12 h-12 bg-amber-100 text-brand-gold flex items-center justify-center rounded-lg text-xl mb-4">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 text-lg mb-2">Instalaciones Residenciales</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Certificación técnica en redes eléctricas interiores, tableros y puesta a tierra.</p>
+                </div>
+                <!-- Certificado 2 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-brand-gold hover:shadow-lg transition-shadow text-left">
+                    <div class="w-12 h-12 bg-amber-100 text-brand-gold flex items-center justify-center rounded-lg text-xl mb-4">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 text-lg mb-2">Electricidad Industrial</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Sistemas trifásicos, motores, automatización básica y mantenimiento industrial.</p>
+                </div>
+                <!-- Certificado 3 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-brand-gold hover:shadow-lg transition-shadow text-left">
+                    <div class="w-12 h-12 bg-amber-100 text-brand-gold flex items-center justify-center rounded-lg text-xl mb-4">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 text-lg mb-2">Seguridad Industrial</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Prevención de riesgos eléctricos y normativas de seguridad laboral.</p>
+                </div>
+                <!-- Certificado 4 -->
+                <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-brand-gold hover:shadow-lg transition-shadow text-left">
+                    <div class="w-12 h-12 bg-amber-100 text-brand-gold flex items-center justify-center rounded-lg text-xl mb-4">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                    <h3 class="font-semibold text-gray-800 text-lg mb-2">Mantenimiento General</h3>
+                    <p class="text-sm text-gray-500 leading-relaxed">Acreditación como contratista general para proyectos de mejora integral.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Horarios de Atención -->
+    <section id="horario" class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-brand-navy text-white rounded-2xl p-8 sm:p-12 shadow-2xl flex flex-col md:flex-row items-center justify-between gap-8">
+                <div>
+                    <div class="inline-flex items-center space-x-2 text-emerald-400 text-sm font-semibold mb-2">
+                        <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></span>
+                        <span>DISPONIBILIDAD CONTINUA</span>
+                    </div>
+                    <h2 class="text-2xl sm:text-3xl font-bold mb-4">Horario de Atención</h2>
+                    <p class="text-gray-300 text-sm max-w-md">
+                        Atención ininterrumpida las 24 horas para cotizaciones, mantenimientos y emergencias eléctricas en general.
+                    </p>
+                </div>
+                <div class="w-full md:w-auto bg-slate-800/80 p-6 rounded-xl border border-slate-700 min-w-[280px] text-center">
+                    <div class="text-brand-gold text-4xl font-extrabold mb-1">24 / 7</div>
+                    <p class="text-white font-semibold text-lg">Abierto las 24 horas</p>
+                    <p class="text-xs text-gray-400 mt-1">Lunes a Domingo (Incluye Feriados)</p>
+                    <a href="https://wa.me/51983238748" target="_blank" rel="noopener" class="mt-4 inline-flex items-center justify-center space-x-2 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold px-4 py-2.5 rounded-lg w-full transition-all">
+                        <i class="fa-brands fa-whatsapp text-sm"></i>
+                        <span>Llamar por Emergencia</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-brand-dark text-gray-400 py-8 mt-auto border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 text-center text-xs sm:text-sm">
+            <p>&copy; 2026 Cristian Vasquez Contratista Generales. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
